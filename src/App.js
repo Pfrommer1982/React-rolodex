@@ -3,6 +3,7 @@ import CardList from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
 import "./App.css";
 
+
 class App extends Component {
   constructor() {
     super();
@@ -43,7 +44,7 @@ class App extends Component {
         <h1 className= "app-title">Monsters Rolodex</h1>
         <SearchBox
           onChangeHandler={onSearchChange}
-          placeholder={"search"}
+          placeholder={"search for monster"}
           className="monsters-search-box"
         />
         <CardList monsters={filteredMonsters} />

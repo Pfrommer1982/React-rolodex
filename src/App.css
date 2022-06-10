@@ -12,7 +12,11 @@ body {
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
+
   text-align: center;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .app-title {
@@ -26,3 +30,4 @@ body {
 footer {
   margin: 50px auto auto 10px;
 }
+
